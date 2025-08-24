@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# 设置当前终端窗口名称为 monitor_docker
+echo -ne "\033]0;monitor_docker\007"
 # 监控配置
 GITHUB_URL="https://raw.githubusercontent.com/muyi326/updateRi/refs/heads/main/MuYi"
 CHECK_INTERVAL=1800  # 30分钟 = 1800秒（修正）
