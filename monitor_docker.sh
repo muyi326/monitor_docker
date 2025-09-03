@@ -54,12 +54,27 @@ tell application "Terminal"
             tell application "System Events"
                 keystroke "c" using {control down}
             end tell
-            delay 0.3
+            delay 0.5
             tell application "System Events"
                 keystroke "c" using {control down}
             end tell
-            delay 0.3
-            
+            delay 0.5
+            tell application "System Events"
+                keystroke "c" using {control down}
+            end tell
+            delay 0.5
+            tell application "System Events"
+                keystroke "c" using {control down}
+            end tell
+            delay 0.5
+            tell application "System Events"
+                keystroke "c" using {control down}
+            end tell
+            delay 0.5
+            tell application "System Events"
+                keystroke "c" using {control down}
+            end tell
+            delay 0.5
             delay 1
             close theWindow saving no
             
